@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Reprograma - Calculadora Freelancer</title>
+  <link rel="icon" href="img/favicon.ico" />
+  <link rel="stylesheet" type="text/css" href="css/estilos.css" />
+</head>
+
+<body>
+  <nav class="barra-navegacao">
+    <img class="barra-navegacao__logotipo" src="img/logotipo-reprograma.png" />
+  </nav>
+  <header class="cabecalho">
+    <h1 class="cabecalho__titulo">Calculadora de Projetos Freelancer</h1>
+  </header>
+  <main class="conteudo-principal">
+    <section class="secao secao-hora">
+      <article class="secao__conteudo">
+        <div class="secao__formulario">
+          <fieldset>
+            <legend>VALORES:</legend>
+            <div class="secao__formulario__grupo">
+              <label for="ganho-mes">Ganho mensal</label>
+              <input id="ganho-mes" type="number" value="0" />
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend>HORAS TRABALHADAS:</legend>
+            <div class="secao__formulario__grupo">
+              <label for="horas-dia">Horas por dia</label>
+              <input id="horas-dia" type="number" value="0" />
+            </div>
+          </fieldset>
+          <button onclick="calcularValorHora()">Calcule aqui</button>
+        </div>
+      </article>
+      <footer class="secao__rodape">
+        <h3 class="secao__rodape__valor">
+          <span id="resposta">R$ 0,00</span><small>/hora</small>
+        </h3>
+        <p class="secao__rodape__legenda">O valor de sua hora é: </p>
+      </footer>
+    </section>
+  </main>
+  <footer class="rodape">Gilvanete Simplicio da Silva - Turma Backend 2021.1
+
+    <a href="https://github.com/Giljared" target="_blanck"><i class="fab fa-github"></i></a>
+    <a href="https://www.linkedin.com/in/gilvanete-silva/" target="_blanck"><i class="fab fa-linkedin-in"></i></a>
+    <a href="https://www.facebook.com/Gil1970" target="_blanck"><i class="fab fa-facebook"></i></a>
+
+  </footer>
+
+  <script type="text/javascript" src="js/script_v2.js"></script>
+</body>
+
+</html>
