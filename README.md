@@ -2,3 +2,5 @@
 
 # Calculadora-de-Projetos-Freelancer
 Calculadora de Projetos Freelancer
+
+Link de acesso: https://calculadoradeprojetosfreelancer.netlify.app/
